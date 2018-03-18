@@ -11,12 +11,12 @@ namespace _01.Debit_Card_Number
         static void Main(string[] args)
         {
             //In the next four lines we receive from the Console 4 integers, representing parts of the Debit Card Number
-			int firstSeries = int.Parse(Console.ReadLine());
+			int firstNumber = int.Parse(Console.ReadLine());
             int secondSeries = int.Parse(Console.ReadLine());
             int thirdSeries = int.Parse(Console.ReadLine());
             int forthSeries = int.Parse(Console.ReadLine());
 			//We print on the Console all parts of the Debit Card Number with the appropriate formating
-            Console.WriteLine($"{firstSeries:D4} {secondSeries:d4} {thirdSeries:D4} {forthSeries:D4}");
+            Console.WriteLine($"{firstNumber:D4} {secondSeries:d4} {thirdSeries:D4} {forthSeries:D4}");
         }
     }
 }
